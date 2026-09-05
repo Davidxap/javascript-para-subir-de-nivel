@@ -1,0 +1,15 @@
+{
+  "name": "javascript-para-subir-de-nivel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/starlight": "^0.41.11",
+    "astro": "^7.2.10"
+  }
+}

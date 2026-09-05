@@ -1,0 +1,8 @@
+---
+// SiteTitle override — adds ThemePicker next to the site title
+import Default from '@astrojs/starlight/components/SiteTitle.astro';
+import ThemePicker from '../ThemePicker.astro';
+---
+
+<Default {...Astro.props} />
+<ThemePicker />

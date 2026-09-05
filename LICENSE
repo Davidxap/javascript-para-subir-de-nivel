@@ -1,0 +1,8 @@
+This repository has two licenses:
+
+- CODE (Astro/Starlight site, components, scripts, build config): MIT License — see LICENSE-CODE
+- CONTENT (the book text, chapters under src/content/docs/, in Spanish and English):
+  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+  — see LICENSE-CONTENT
+
+© David Arturo Arroyave Pérez, Manizales, Colombia.
