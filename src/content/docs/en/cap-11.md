@@ -615,4 +615,4 @@ async def usar_conexion():
 
 ## Next Chapter
 
-→ **Cap-12-APIs-Modernas-TC39**: In the next chapter, we will look at modern APIs and TC39 proposals for ES2025-ES2026.
+→ **[Chapter 12: Modern APIs and TC39 proposals](./cap-12)**: What's coming in ES2025-ES2026.

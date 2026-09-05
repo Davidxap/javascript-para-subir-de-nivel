@@ -800,4 +800,4 @@ def brotli_compress(data):
 
 ## Next Chapter
 
-→ **Cap-9-Arquitecturas-Estado**: In the next chapter, we will look at state architectures like MVC and their derivatives in Node.js.
+→ **[Chapter 9: State architectures](./cap-09)**: MVC and its derivatives in Node.js.

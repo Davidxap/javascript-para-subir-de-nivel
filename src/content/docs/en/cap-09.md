@@ -834,4 +834,4 @@ def index():
 
 ## Next Chapter
 
-→ **Cap-10-Seguridad-Defensiva**: In the next chapter, we will look at defensive security, including Prototype Pollution and OWASP.
+→ **[Chapter 10: Defensive security](./cap-10)**: Prototype Pollution, sanitization, and OWASP.

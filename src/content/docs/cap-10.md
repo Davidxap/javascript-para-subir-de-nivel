@@ -561,4 +561,4 @@ usuario = Usuario(nombre="David", email="david@ejemplo.com", edad=25)
 
 ## Siguiente Capítulo
 
-→ **Cap-11-Gestion-Asincrona-Recursos**: En el próximo veremos gestión asíncrona de recursos, incluyendo `using` y Explicit Resource Management.
+→ **[Capítulo 11: Gestión asíncrona de recursos](./cap-11)**: `using` y Explicit Resource Management.

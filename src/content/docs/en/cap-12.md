@@ -181,7 +181,7 @@ print(resultado)  # [4, 16, 36, 64, 100]
 
 ## 4. `using` (Explicit Resource Management)
 
-> Covered in detail in **Cap-11-Gestion-Asincrona-Recursos**.
+> Covered in detail in **[Chapter 11: Asynchronous resource management](./cap-11)**.
 
 ## Common Errors
 

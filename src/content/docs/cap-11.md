@@ -615,4 +615,4 @@ async def usar_conexion():
 
 ## Siguiente Capítulo
 
-→ **Cap-12-APIs-Modernas-TC39**: En el próximo veremos APIs modernas y propuestas TC39 para ES2025-ES2026.
+→ **[Capítulo 12: APIs modernas y propuestas TC39](./cap-12)**: Lo que viene en ES2025-ES2026.

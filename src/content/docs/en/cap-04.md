@@ -810,4 +810,4 @@ print(modulo.sumar(2, 3))
 
 ## Next Chapter
 
-→ **Cap-5-Estructuras-Avanzadas-Iteracion**: In the next chapter, we will look at advanced structures and iteration, including Map, Set, WeakMap, WeakSet, and new array methods.
+→ **[Chapter 5: Advanced data structures and iteration](./cap-05)**: Map, Set, WeakMap, WeakSet, and modern array methods.

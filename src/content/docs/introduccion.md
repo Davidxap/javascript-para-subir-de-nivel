@@ -26,9 +26,17 @@ Casi todo el material en internet enseña a *usar* JavaScript: "escribe esto y f
 
 Cuando entiendes el mecanismo, dejas de memorizar sintaxis: la sintaxis se vuelve obvia.
 
+## Las comparativas con Java y Python
+
+En la universidad — al menos en Colombia — a la mayoría nos enseñaron a programar con **Java** o **C**. A mí me enseñaron Java: no soy un experto, pero tengo las bases. Python lo aprendí por mi cuenta, después.
+
+Por eso, a lo largo del libro encontrarás cajas de **"Conexión con Python"** y **"Conexión con Java"**. La idea es sencilla: si ya conoces alguno de esos lenguajes, cada concepto de JavaScript se te hará más liviano porque podrás compararlo con algo que ya tienes en la cabeza — dónde se parece, y más importante aún, **dónde se rompe la equivalencia**. Y si tu camino es el inverso — vienes de JavaScript hacia Python o Java — las mismas cajas te sirven para hacer la traducción al revés.
+
+Si ninguno de esos lenguajes te suena, no pasa nada: las cajas son opcionales y el capítulo se entiende completo sin ellas.
+
 ## ¿A quién va dirigido?
 
-A quien ya ha escrito algo de JavaScript —aunque sea poco— y quiere subir de nivel: desde los fundamentos del lenguaje hasta patrones, seguridad y las APIs más modernas (ES2025–ES2026). Lo escribí en español porque sé lo útil que es depender menos de la traducción mental.
+A quien ya ha escrito algo de JavaScript —aunque sea poco— y quiere subir de nivel: desde los fundamentos del lenguaje hasta patrones, seguridad y las APIs más modernas (ES2025–ES2026).
 
 ## Cómo estudiarlo
 
@@ -37,12 +45,15 @@ A quien ya ha escrito algo de JavaScript —aunque sea poco— y quiere subir de
 3. **Vuelve**: la segunda lectura de un capítulo que ya "superaste" es donde ocurre el aprendizaje real.
 4. **Explícalo**: si no puedes explicar un concepto con tus palabras, aún no es tuyo.
 
+## Encontraste un error: contribuye
+
+Este libro fue **escrito originalmente en español**, a partir de mis apuntes personales, y es mi primer idioma. La edición en inglés existe gracias a una traducción cuidada, pero es posible que encuentres un error — de traducción, de contenido técnico o de tipeo.
+
+Si lo encuentras, puedes mejorarlo directamente: cada página tiene un enlace **"Edit page"** que te lleva al archivo fuente en GitHub, donde puedes proponer el cambio con un *Pull Request*. El libro mejora con cada corrección, por pequeña que sea.
+
 ## Agradecimientos
 
 A la comunidad JavaScript en general: a los autores de la documentación, especificaciones y libros listados en la [bibliografía](bibliografia), sin los cuales estas notas no existirían.
-
-> [!note] 🇬🇧 English version
-> This book also has an English edition, reviewed by me personally. Switch languages with the selector at the top.
 
 ---
 

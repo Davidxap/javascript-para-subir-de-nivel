@@ -1430,4 +1430,4 @@ class ErrorNoEncontrado(ErrorAPI):
 
 ## Siguiente Capítulo
 
-→ **Cap-7-Patrones-Creacionales**: En el próximo capítulo veremos patrones creacionales como Factory, Singleton y Builder, aplicados a JavaScript moderno.
+→ **[Capítulo 7: Patrones creacionales](./cap-07)**: Factory, Singleton y Builder, aplicados a JavaScript moderno.
