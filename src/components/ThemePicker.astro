@@ -1,0 +1,98 @@
+---
+// ThemePicker.astro — adaptive theme picker
+// Light mode active → shows light themes; dark mode active → shows dark themes.
+// Uses data-custom-theme so it never conflicts with Starlight's native dark/light toggle.
+---
+
+<div class="theme-picker" id="theme-picker-root">
+  <select id="theme-select" aria-label="Choose theme" title="Choose theme"></select>
+</div>
+
+<script is:inline>
+(function() {
+  var KEY = 'jpsn-theme';
+
+  var LIGHT_THEMES = [
+    { value: '', label: 'Auto' },
+    { value: 'light', label: 'Latte' },
+    { value: 'github-light', label: 'GitHub Light' },
+    { value: 'solarized-light', label: 'Solarized Light' },
+    { value: 'flexoki-light', label: 'Flexoki Light' },
+    { value: 'rose-pine-dawn', label: 'Rose Pine Dawn' },
+  ];
+  var DARK_THEMES = [
+    { value: '', label: 'Auto' },
+    { value: 'mocha', label: 'Mocha' },
+    { value: 'dracula', label: 'Dracula' },
+    { value: 'one-dark', label: 'One Dark' },
+    { value: 'gruvbox', label: 'Gruvbox' },
+    { value: 'nord', label: 'Nord' },
+    { value: 'tokyo-night', label: 'Tokyo Night' },
+    { value: 'everforest', label: 'Everforest' },
+    { value: 'kanagawa', label: 'Kanagawa' },
+  ];
+
+  function currentMode() {
+    return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  }
+
+  function buildOptions() {
+    var sel = document.getElementById('theme-select');
+    if (!sel) return;
+    var mode = currentMode();
+    var list = mode === 'light' ? LIGHT_THEMES : DARK_THEMES;
+    var saved = localStorage.getItem(KEY) || '';
+    sel.innerHTML = '';
+    list.forEach(function(t) {
+      var opt = document.createElement('option');
+      opt.value = t.value;
+      opt.textContent = t.label;
+      sel.appendChild(opt);
+    });
+    // keep selection only if it belongs to current mode
+    sel.value = (saved && list.some(function(t){ return t.value === saved; })) ? saved : '';
+  }
+
+  function apply(val) {
+    if (!val) {
+      document.documentElement.removeAttribute('data-custom-theme');
+      localStorage.removeItem(KEY);
+    } else {
+      document.documentElement.setAttribute('data-custom-theme', val);
+      localStorage.setItem(KEY, val);
+    }
+  }
+
+  function init() {
+    buildOptions();
+    var sel = document.getElementById('theme-select');
+    if (!sel) return;
+    // ensure custom attribute is applied on load
+    var saved = localStorage.getItem(KEY) || '';
+    if (saved) apply(saved);
+    sel.addEventListener('change', function() { apply(this.value); });
+
+    // When Starlight's native toggle flips light/dark, rebuild the option list
+    // so the picker only shows themes matching the current mode.
+    var btn = document.querySelector('[data-class-toggle]') || document.querySelector('starlight-theme-select select');
+    if (btn) {
+      btn.addEventListener('change', function() {
+        // flipping mode clears a custom theme that no longer matches
+        apply('');
+        setTimeout(buildOptions, 50);
+      });
+      btn.addEventListener('click', function() {
+        apply('');
+        setTimeout(buildOptions, 50);
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+  document.addEventListener('astro:page-load', init);
+})();
+</script>

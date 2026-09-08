@@ -1,0 +1,15 @@
+---
+// VideoEmbed.astro — embed de YouTube (privacy-enhanced, youtube-nocookie)
+// Uso: <VideoEmbed id="VIDEO_ID" label="Título del video" />
+const { id, label } = Astro.props;
+---
+
+{label && <p class="video-label">📺 {label}</p>}
+<div class="video-embed">
+  <iframe
+    src={`https://www.youtube-nocookie.com/embed/${id}`}
+    title={label || 'Video'}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>

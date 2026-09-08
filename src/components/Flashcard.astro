@@ -1,0 +1,58 @@
+---
+export interface Props {
+  question: string;
+  answer: string;
+  id?: string;
+}
+const { question, answer, id } = Astro.props;
+---
+
+<flash-card class="flashcard" data-question={question} data-answer={answer} data-id={id}></flash-card>
+
+<script>
+class FlashCard extends HTMLElement {
+  constructor() {
+    super();
+    const q = this.dataset.question, a = this.dataset.answer;
+    const cid = this.dataset.id || q;
+    const saved = localStorage.getItem('flashcard:' + cid);
+    this.innerHTML = `
+      <button class="fc-btn" aria-expanded="false">
+        <span class="fc-q">🃏 ${q}</span>
+        <span class="fc-a" hidden>${a}</span>
+        <span class="fc-state">${saved === 'known' ? '✅' : saved === 'unknown' ? '🔁' : ''}</span>
+      </button>
+      <div class="fc-marks" hidden>
+        <button class="fc-known">La sabía ✅</button>
+        <button class="fc-unknown">Repasar 🔁</button>
+      </div>`;
+    const btn = this.querySelector('.fc-btn');
+    const ans = this.querySelector('.fc-a');
+    const marks = this.querySelector('.fc-marks');
+    btn.addEventListener('click', () => {
+      const open = ans.hasAttribute('hidden');
+      if (open) { ans.removeAttribute('hidden'); marks.removeAttribute('hidden'); btn.setAttribute('aria-expanded','true'); }
+      else { ans.setAttribute('hidden',''); marks.setAttribute('hidden',''); btn.setAttribute('aria-expanded','false'); }
+    });
+    const mark = (val) => {
+      localStorage.setItem('flashcard:'+cid, val);
+      this.querySelector('.fc-state').textContent = val==='known' ? '✅' : '🔁';
+    };
+    this.querySelector('.fc-known').addEventListener('click', () => mark('known'));
+    this.querySelector('.fc-unknown').addEventListener('click', () => mark('unknown'));
+  }
+}
+customElements.define('flash-card', FlashCard);
+</script>
+
+<style>
+flash-card { display:block; margin:.75rem 0; }
+.fc-btn { width:100%; text-align:left; background:var(--sl-color-bg-sidebar); border:1px solid var(--sl-color-hairline); border-radius:8px; padding:12px 14px; cursor:pointer; display:flex; flex-direction:column; gap:6px; }
+.fc-btn:hover { border-color:var(--sl-color-accent); }
+.fc-q { font-weight:600; }
+.fc-a { color:var(--sl-color-text-accent); }
+.fc-state { margin-left:auto; }
+.fc-marks { display:flex; gap:8px; margin-top:6px; }
+.fc-marks button { font-size:12px; padding:4px 10px; border-radius:6px; border:1px solid var(--sl-color-hairline); background:transparent; cursor:pointer; color:inherit; }
+.fc-marks button:hover { border-color:var(--sl-color-accent); }
+</style>

@@ -1,0 +1,54 @@
+---
+export interface Props {
+  code: string;
+  lang?: string;
+}
+const { code } = Astro.props;
+const id = 'run-' + Math.random().toString(36).slice(2, 8);
+---
+
+<div class="code-runner" id={id}>
+  <pre class="cr-pre"><code>{code}</code></pre>
+  <div class="cr-bar">
+    <button class="cr-run">▶ Run</button>
+    <button class="cr-reset">↺ Clear</button>
+  </div>
+  <pre class="cr-out" hidden></pre>
+</div>
+
+<script define:vars={{ code, id }}>
+  const el = document.getElementById(id);
+  const out = el.querySelector('.cr-out');
+  el.querySelector('.cr-run').addEventListener('click', () => {
+    out.hidden = false;
+    out.textContent = '';
+    const logs = [];
+    const iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    iframe.sandbox = 'allow-scripts';
+    document.body.appendChild(iframe);
+    const w = iframe.contentWindow;
+    const origLog = w.console.log.bind(w.console);
+    w.console.log = (...args) => { logs.push(args.join(' ')); };
+    origLog;
+    try {
+      w.eval(code);
+      out.textContent = logs.join('\n') || '✓ (no output)';
+    } catch (e) {
+      out.textContent = '⚠ ' + e.message;
+    }
+    iframe.remove();
+  });
+  el.querySelector('.cr-reset').addEventListener('click', () => { out.hidden = true; out.textContent=''; });
+</script>
+
+<style>
+.code-runner { border: 1px solid var(--sl-color-hairline); border-radius: 10px; margin: 1rem 0; overflow: hidden; }
+.cr-pre { margin: 0; padding: 14px; background: var(--sl-color-bg-sidebar); font-size: 0.9em; overflow-x: auto; }
+.cr-bar { display: flex; gap: 8px; padding: 8px; border-top: 1px solid var(--sl-color-hairline); background: var(--sl-color-bg); }
+.cr-bar button { font-size: 12px; font-weight: 600; padding: 5px 14px; border-radius: 6px; border: 1px solid var(--sl-color-hairline); cursor: pointer; background: transparent; color: inherit; transition: all .15s; }
+.cr-run { background: var(--sl-color-accent) !important; color: white !important; border-color: var(--sl-color-accent) !important; }
+.cr-run:hover { opacity: 0.85; }
+.cr-out { margin: 0; padding: 12px 14px; background: #0d1117; color: #7ee787; font-size: 0.85em; border-top: 1px solid var(--sl-color-hairline); white-space: pre-wrap; }
+[data-theme='light'] .cr-out { background: #f6f8fa; color: #116329; }
+</style>
