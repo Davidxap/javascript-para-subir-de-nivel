@@ -61,6 +61,12 @@ Full-stack developer from Manizales, Colombia. I learn by building, breaking thi
 - GitHub: [github.com/Davidxap](https://github.com/Davidxap)
 - LinkedIn: [linkedin.com/in/davidxaperez](https://www.linkedin.com/in/davidxaperez/)
 
+## If this helped, buy me a coffee
+
+Everything here started as my own study notes — the things I wish someone had explained to me earlier. I keep writing and adding chapters, in the open and for free.
+
+If a chapter saved you an afternoon, [buy me a coffee](https://buymeacoffee.com/davidxap). You close a tab, I refill the moka pot. ☕
+
 ## Acknowledgments
 
 To the JavaScript community at large: to the authors of the documentation, specifications, and books listed in the [bibliography](bibliografia), without which these notes would not exist.

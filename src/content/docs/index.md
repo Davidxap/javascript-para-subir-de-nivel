@@ -61,6 +61,12 @@ Desarrollador full-stack desde Manizales, Colombia. Aprendo construyendo, rompie
 - GitHub: [github.com/Davidxap](https://github.com/Davidxap)
 - LinkedIn: [linkedin.com/in/davidxaperez](https://www.linkedin.com/in/davidxaperez/)
 
+## Si esto te sirvió, invítame a un café
+
+Todo lo que está acá empezó como mis notas de estudio — las cosas que quería que alguien me explicara antes. Sigo escribiendo y agregando capítulos, en abierto y gratis.
+
+Si un capítulo te ahorró una tarde, [invítame a un café](https://buymeacoffee.com/davidxap). Vos cerrás una pestaña, yo relleno la cafetera. ☕
+
 ## Agradecimientos
 
 A la comunidad JavaScript en general: a los autores de la documentación, especificaciones y libros listados en la [bibliografía](bibliografia), sin los cuales estas notas no existirían.
