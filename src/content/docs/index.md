@@ -59,13 +59,10 @@ Si lo encuentras, puedes mejorarlo directamente: cada página tiene un enlace **
 Desarrollador full-stack desde Manizales, Colombia. Aprendo construyendo, rompiendo cosas y escribiendo lo que aprendí. Mis notas de estudio de JavaScript crecieron hasta convertirse en este libro.
 
 - GitHub: [github.com/Davidxap](https://github.com/Davidxap)
-- LinkedIn: [linkedin.com/in/davidxaperez](https://www.linkedin.com/in/davidxaperez/)
 
-## Si esto te sirvió, invítame a un café
+## Gracias por leer
 
-Todo lo que está acá empezó como mis notas de estudio — las cosas que quería que alguien me explicara antes. Sigo escribiendo y agregando capítulos, en abierto y gratis.
-
-Si un capítulo te ahorró una tarde, [invítame a un café](https://buymeacoffee.com/davidxap). Vos cerrás una pestaña, yo relleno la cafetera. ☕
+El libro es gratuito y va a seguir siéndolo. Si te sirvió, [puedes invitarme a un café](https://buymeacoffee.com/davidxap) — es opcional, y se agradece igual. ☕
 
 ## Agradecimientos
 

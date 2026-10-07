@@ -59,13 +59,10 @@ If you do, you can fix it directly: every page has an **"Edit page"** link that 
 Full-stack developer from Manizales, Colombia. I learn by building, breaking things, and writing down what I learned. My JavaScript study notes grew until they became this book.
 
 - GitHub: [github.com/Davidxap](https://github.com/Davidxap)
-- LinkedIn: [linkedin.com/in/davidxaperez](https://www.linkedin.com/in/davidxaperez/)
 
-## If this helped, buy me a coffee
+## Thanks for reading
 
-Everything here started as my own study notes — the things I wish someone had explained to me earlier. I keep writing and adding chapters, in the open and for free.
-
-If a chapter saved you an afternoon, [buy me a coffee](https://buymeacoffee.com/davidxap). You close a tab, I refill the moka pot. ☕
+The book is free and will stay that way. If it helped you, [you can buy me a coffee](https://buymeacoffee.com/davidxap) — it's optional, and appreciated either way. ☕
 
 ## Acknowledgments
 
