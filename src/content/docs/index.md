@@ -1,5 +1,6 @@
 ---
-title: JavaScript para Subir de Nivel
+title: "Libro de JavaScript: de usarlo a entenderlo"
+description: "Libro técnico y gratuito de JavaScript en español: pasa de saber usar el lenguaje a entender closures, prototipos, el Event Loop, patrones y seguridad."
 ---
 
 # JavaScript para Subir de Nivel

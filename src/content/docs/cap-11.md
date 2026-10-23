@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 11: Gestión asíncrona de recursos (using, Explicit Resource Management)"
+description: "using y await using (Explicit Resource Management, ES2027): libera archivos, conexiones y timers sin try/finally artesanal, como en Java o Python."
 ---
 
 # Capítulo 11: Gestión asíncrona de recursos (using, Explicit Resource Management)

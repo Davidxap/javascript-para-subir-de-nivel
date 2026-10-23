@@ -1,5 +1,6 @@
 ---
 title: "Chapter 1: Modern Functions, Destructuring, and Lexical Scope"
+description: "First-class functions, closures, lexical scope, default and rest parameters, and how the engine really manages scope and this."
 ---
 
 # Chapter 1: Modern Functions, Destructuring, and Lexical Scope

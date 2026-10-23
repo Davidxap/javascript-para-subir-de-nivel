@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 3: Asincronía, promesas y Event Loop"
+description: "Call stack, macrotareas y microtareas: cómo funcionan por dentro el Event Loop, las promesas y async/await, y cómo evitar condiciones de carrera."
 ---
 
 # Capítulo 3: Asincronía, promesas y Event Loop

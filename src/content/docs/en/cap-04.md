@@ -1,5 +1,6 @@
 ---
 title: "Chapter 4: Modules and Code Organization"
+description: "CommonJS and ES Modules side by side: what require and import do under the hood, where they break, and how to structure a real codebase."
 ---
 
 # Chapter 4: Modules and Code Organization

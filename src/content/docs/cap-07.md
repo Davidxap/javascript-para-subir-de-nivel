@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 7: Patrones creacionales (Factory, Singleton, Builder)"
+description: "Factory, Singleton y Builder explicados con JavaScript moderno, la metáfora de un restaurante y el equivalente de cada patrón en Python y Java."
 ---
 
 # Capítulo 7: Patrones creacionales (Factory, Singleton, Builder)

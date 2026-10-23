@@ -1,5 +1,6 @@
 ---
 title: "Chapter 9: State Architectures (MVC and Derivatives in Node.js)"
+description: "MVC and its variants in Node.js: where state lives, how to split model, controller and service, compared with Express, Django and Spring."
 ---
 
 # Chapter 9: State Architectures (MVC and Derivatives in Node.js)

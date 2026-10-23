@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 12: APIs modernas y propuestas TC39 (ES2025-ES2026)"
+description: "APIs y propuestas TC39 de ES2025 y ES2026: qué ya llegó al estándar, qué está en camino y cómo cambia la forma de escribir JavaScript."
 ---
 
 # Capítulo 12: APIs modernas y propuestas TC39 (ES2025-ES2026)

@@ -1,5 +1,6 @@
 ---
 title: "Chapter 10: Defensive Security (Prototype Pollution, OWASP)"
+description: "Prototype pollution, input validation, OWASP and defensive security in JavaScript: why you should never trust data coming from outside."
 ---
 
 # Chapter 10: Defensive Security (Prototype Pollution, OWASP)

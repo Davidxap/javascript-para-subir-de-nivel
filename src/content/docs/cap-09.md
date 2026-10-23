@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 9: Arquitecturas de estado (MVC y derivados en Node.js)"
+description: "MVC y sus derivados en Node.js: dónde vive el estado, cómo separar modelo, controlador y servicio, comparado con Express, Django y Spring."
 ---
 
 # Capítulo 9: Arquitecturas de estado (MVC y derivados en Node.js)

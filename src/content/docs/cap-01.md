@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 1: Funciones modernas, destructuring y entorno léxico"
+description: "Funciones de primera clase, closures, entorno léxico, parámetros por defecto, rest/spread y cómo gestiona el motor el scope y el this."
 ---
 
 # Capítulo 1: Funciones modernas, destructuring y entorno léxico

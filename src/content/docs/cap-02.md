@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 2: Objetos, prototipos y clases"
+description: "La cadena de prototipos por dentro: descriptores de propiedades, el operador new, clases con campos privados #, Proxy, Reflect y Symbol."
 ---
 
 # Capítulo 2: Objetos, prototipos y clases

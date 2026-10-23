@@ -1,5 +1,6 @@
 ---
-title: JavaScript to Level Up
+title: "JavaScript Book: From Using to Understanding"
+description: "A free technical JavaScript book in English: go from using the language to understanding closures, prototypes, the event loop, patterns and security."
 ---
 
 # JavaScript to Level Up

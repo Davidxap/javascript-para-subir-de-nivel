@@ -1,5 +1,6 @@
 ---
 title: "Chapter 2: Objects, Prototypes, and Classes"
+description: "The prototype chain from the inside: property descriptors, the new operator, classes with private # fields, Proxy, Reflect and Symbol."
 ---
 
 # Chapter 2: Objects, Prototypes, and Classes

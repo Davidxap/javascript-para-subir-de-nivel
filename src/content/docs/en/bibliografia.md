@@ -1,5 +1,6 @@
 ---
 title: Bibliography
+description: "Recommended bibliography and references to keep going deeper into JavaScript after each chapter of the book."
 ---
 
 # Bibliography and sources

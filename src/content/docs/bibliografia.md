@@ -1,5 +1,6 @@
 ---
 title: Bibliografía
+description: "Bibliografía y fuentes recomendadas para seguir profundizando en JavaScript después de cada capítulo del libro."
 ---
 
 # Bibliografía y fuentes

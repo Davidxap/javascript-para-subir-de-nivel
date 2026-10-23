@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 6: Manejo de errores y depuración"
+description: "Modelo de errores de JavaScript: jerarquías personalizadas, try/catch y finally, depuración con node --inspect, logging y errores no manejados."
 ---
 
 # Capítulo 6: Manejo de errores y depuración

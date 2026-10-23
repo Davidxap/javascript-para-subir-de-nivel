@@ -1,5 +1,6 @@
 ---
 title: "Chapter 11: Asynchronous Resource Management (using, Explicit Resource Management)"
+description: "using and await using (Explicit Resource Management, ES2027): release files, connections and timers without hand-rolled try/finally."
 ---
 
 # Chapter 11: Asynchronous Resource Management (using, Explicit Resource Management)

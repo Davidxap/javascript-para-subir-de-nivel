@@ -1,5 +1,6 @@
 ---
 title: "Chapter 5: Advanced Data Structures and Iteration"
+description: "Map, Set, WeakMap, WeakSet, iterators, generators and immutability: when each structure wins and how iteration works under the hood."
 ---
 
 # Chapter 5: Advanced Data Structures and Iteration

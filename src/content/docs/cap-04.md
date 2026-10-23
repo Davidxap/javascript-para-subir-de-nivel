@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 4: Módulos y organización del código"
+description: "CommonJS y ES Modules en convivencia: qué hacen require e import por debajo, dónde se rompen y cómo organizar el código de un proyecto real."
 ---
 
 # Capítulo 4: Módulos y organización del código

@@ -1,5 +1,6 @@
 ---
 title: "Chapter 12: Modern APIs and TC39 Proposals (ES2025-ES2026)"
+description: "TC39 APIs and proposals for ES2025 and ES2026: what already shipped, what is on the way, and how it changes the way you write JavaScript."
 ---
 
 # Chapter 12: Modern APIs and TC39 Proposals (ES2025-ES2026)

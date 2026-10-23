@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 5: Estructuras de datos avanzadas e iteración"
+description: "Map, Set, WeakMap, WeakSet, iteradores, generadores e inmutabilidad: cuándo gana cada estructura y cómo funciona la iteración por dentro."
 ---
 
 # Capítulo 5: Estructuras de datos avanzadas e iteración

@@ -1,5 +1,6 @@
 ---
 title: "Chapter 3: Asynchrony, Promises, and the Event Loop"
+description: "Call stack, macrotasks and microtasks: how the event loop, promises and async/await work internally, and how to avoid race conditions."
 ---
 
 # Chapter 3: Asynchrony, Promises, and the Event Loop

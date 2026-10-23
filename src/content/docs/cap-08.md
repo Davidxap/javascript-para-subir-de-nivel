@@ -1,5 +1,6 @@
 ---
 title: "Capítulo 8: Patrones comportamentales y eventos (Observer, Mediator, Strategy)"
+description: "Observer, Mediator y Strategy en JavaScript: cómo desacoplar la comunicación entre componentes y construir sistemas basados en eventos."
 ---
 
 # Capítulo 8: Patrones comportamentales y eventos (Observer, Mediator, Strategy)

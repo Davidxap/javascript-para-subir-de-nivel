@@ -1,5 +1,6 @@
 ---
 title: "Chapter 6: Error handling and debugging"
+description: "The JavaScript error model: custom error hierarchies, try/catch, debugging with node --inspect, structured logging and unhandled errors."
 ---
 
 # Chapter 6: Error handling and debugging

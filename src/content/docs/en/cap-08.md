@@ -1,5 +1,6 @@
 ---
 title: "Chapter 8: Behavioral Patterns and Events (Observer, Mediator, Strategy)"
+description: "Observer, Mediator and Strategy in JavaScript: how to decouple component communication and build event-driven systems that stay maintainable."
 ---
 
 # Chapter 8: Behavioral Patterns and Events (Observer, Mediator, Strategy)

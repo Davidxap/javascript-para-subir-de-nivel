@@ -1,5 +1,6 @@
 ---
 title: "Chapter 7: Creational Patterns (Factory, Singleton, Builder)"
+description: "Factory, Singleton and Builder explained with modern JavaScript, a restaurant metaphor, and each pattern's equivalent in Python and Java."
 ---
 
 # Chapter 7: Creational Patterns (Factory, Singleton, Builder)
