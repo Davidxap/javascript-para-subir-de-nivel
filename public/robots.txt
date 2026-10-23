@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://davidxap.github.io/javascript-para-subir-de-nivel/sitemap-index.xml

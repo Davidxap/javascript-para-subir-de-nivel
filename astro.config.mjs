@@ -65,6 +65,9 @@ export default defineConfig({
         { icon: 'github', label: 'GitHub', href: 'https://github.com/Davidxap/javascript-para-subir-de-nivel' },
       ],
       head: [
+        { tag: "meta", attrs: { property: "og:image", content: "https://davidxap.github.io/javascript-para-subir-de-nivel/og.png" } },
+        { tag: "meta", attrs: { property: "og:image:alt", content: "JavaScript para Subir de Nivel — libro técnico de JavaScript" } },
+        { tag: "meta", attrs: { name: "twitter:image", content: "https://davidxap.github.io/javascript-para-subir-de-nivel/og.png" } },
         { tag: "script", attrs: {}, content: "(function(){try{var t=localStorage.getItem('jpsn-theme');if(t){document.documentElement.setAttribute('data-custom-theme',t);if(['mocha','dracula','one-dark','gruvbox','nord','tokyo-night','everforest','kanagawa'].includes(t))document.documentElement.setAttribute('data-theme','dark');else if(t==='light')document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();void 0;" },
         { tag: "link", attrs: { rel: "preconnect", href: "https://fonts.googleapis.com" } },
         { tag: "link", attrs: { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true } },
