@@ -1,0 +1,24 @@
+name: Error o mejora en el libro
+description: Un error, un ejemplo que no corre o una explicación confusa
+labels: ["contenido"]
+body:
+  - type: input
+    id: cap
+    attributes:
+      label: Capítulo y sección
+      placeholder: "cap-03, sección Event Loop (o la URL)"
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options: [Error técnico, Ejemplo que no corre, Explicación confusa, Typo o redacción, Traducción al inglés, Sugerencia de contenido]
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Qué viste y qué esperabas
+    validations:
+      required: true

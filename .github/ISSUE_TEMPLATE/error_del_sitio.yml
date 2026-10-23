@@ -1,0 +1,16 @@
+name: Problema del sitio
+description: Algo falla en la web (botón Run, tema, flashcards, navegación)
+labels: ["bug"]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué pasó
+    validations:
+      required: true
+  - type: input
+    id: nav
+    attributes:
+      label: Navegador y sistema
+    validations:
+      required: true
